@@ -6,15 +6,15 @@
 
 * 1. 同you-get官方描述的一样，可以下载各大网站视频
 
-  ![](C:\Users\Administrator\Desktop\downloader\png\1.png)
+  ![image-1](https://github.com/linxinloningg/youget_downloader/blob/main/png/1.png)
 
 * 2.解析本地urls.txt(每一行写一个url链接)进行下载
 
-![image-20211124232711307](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20211124232711307.png)
+![image-2](https://github.com/linxinloningg/youget_downloader/blob/main/png/2.png)
 
 * 3.设置保存目录、文件名、超时时间、格式等等
 
-![image-20211124232917719](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20211124232917719.png)
+![image-3](https://github.com/linxinloningg/youget_downloader/blob/main/png/3.png)
 
 #### 使用方式：
 
@@ -23,7 +23,7 @@
 * 第三步：指定自己想要的参数，保存目录，文件等
 * 第四步：点击下载，岁月静好，下载期间不能再指定其他下载，且开始下载按钮变灰
 
-![image-20211124233402140](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20211124233402140.png)
+![image-4](https://github.com/linxinloningg/youget_downloader/blob/main/png/4.png)
 
 #### 缺点：
 
