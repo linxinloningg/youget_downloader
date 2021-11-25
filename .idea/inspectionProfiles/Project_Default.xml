@@ -1,0 +1,52 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E722" />
+          <option value="W605" />
+          <option value="E402" />
+          <option value="E128" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="PyQt5.QtCore.Qt.WA_TranslucentBackground" />
+          <option value="PyQt5.QtCore.Qt.Vertical" />
+          <option value="PyQt5.QtCore.Qt.CustomContextMenu" />
+          <option value="PyQt5.QtCore.Qt.ItemIsEditable" />
+          <option value="PyQt5.QtCore.Qt.AlignHCenter" />
+          <option value="aksE.QuotaSql.progressBar" />
+          <option value="index_value" />
+          <option value="end_value" />
+          <option value="start_value" />
+          <option value="period" />
+          <option value="adjust" />
+          <option value="start_date" />
+          <option value="end_date" />
+          <option value="market" />
+          <option value="indicator" />
+          <option value="sector_type" />
+          <option value="pair" />
+          <option value="latest_price" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

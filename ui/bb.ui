@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window</class>
+ <widget class="QWidget" name="window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgba(85, 85, 127,0.5)</string>
+  </property>
+  <widget class="QLabel" name="label_top">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>450</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bottom">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>380</y>
+     <width>450</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="urledit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{border:1px rgb(124,124,124);background-color: rgba(124,124,124, 0%);padding:1px 2px;border-style: solid;font-size : 15px ;color:rgb(255, 170, 0);}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cookie">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:transparent;color:rgb(255, 85, 127);border:1px solid pink;font-family: 微软雅黑;font-size:15px;}
+
+QPushButton:hover{opacity:0.2;border:2px solid black;}
+
+QPushButton:pressed{background-color:transparent;border:1px solid red;}</string>
+   </property>
+   <property name="text">
+    <string>附加cookie</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="txt">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:transparent;color:rgb(255, 85, 127);border:1px solid pink;font-family: 微软雅黑;font-size:15px;}
+
+QPushButton:hover{opacity:0.2;border:2px solid black;}
+
+QPushButton:pressed{background-color:transparent;border:1px solid red;}</string>
+   </property>
+   <property name="text">
+    <string>选择txt文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="analysis">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>40</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:transparent;color:rgb(255, 85, 127);border:1px solid pink;font-family: 微软雅黑;font-size:15px;}
+
+QPushButton:hover{opacity:0.2;border:2px solid black;}
+
+QPushButton:pressed{background-color:transparent;border:1px solid red;}</string>
+   </property>
+   <property name="text">
+    <string>解析</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="directoryedit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{border:1px rgb(124,124,124);background-color: rgba(124,124,124, 0%);padding:1px 2px;border-style: solid;font-size : 15px ;color:rgb(255, 170, 0);}</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>170</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextBrowser{background-color : rgba(85, 85, 255,0.3);}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fliename">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>140</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:transparent;color:rgb(255, 85, 127);border:1px solid pink;font-family: 微软雅黑;font-size:15px;}
+
+QPushButton:hover{opacity:0.2;border:2px solid black;}
+
+QPushButton:pressed{background-color:transparent;border:1px solid red;}</string>
+   </property>
+   <property name="text">
+    <string>文件名</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="timeout">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>140</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:transparent;color:rgb(255, 85, 127);border:1px solid pink;font-family: 微软雅黑;font-size:15px;}
+
+QPushButton:hover{opacity:0.2;border:2px solid black;}
+
+QPushButton:pressed{background-color:transparent;border:1px solid red;}</string>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ignore_ssl_errors">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>240</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{border-radius:15px;width: 20px;height:20px;font-size:10px;color:rgb(255, 170, 0);}</string>
+   </property>
+   <property name="text">
+    <string>忽略ssl错误</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="merge">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>210</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{border-radius:15px;width: 20px;height:20px;font-size:10px;color:rgb(255, 170, 0);}</string>
+   </property>
+   <property name="text">
+    <string>合并</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="debug">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>270</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{border-radius:15px;width: 20px;height:20px;font-size:10px;color:rgb(255, 170, 0);}</string>
+   </property>
+   <property name="text">
+    <string>调试</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="directory">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>90</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:transparent;color:rgb(255, 85, 127);border:1px solid pink;font-family: 微软雅黑;font-size:15px;}
+
+QPushButton:hover{opacity:0.2;border:2px solid black;}
+
+QPushButton:pressed{background-color:transparent;border:1px solid red;}</string>
+   </property>
+   <property name="text">
+    <string>保存目录</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="timespinBox">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>141</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSpinBox{height:30px;width:30px;}
+
+QSpinBox::up-button{height: 15px;subcontrol-position:left;}
+
+QSpinBox::down-button{height: 15px;subcontrol-position:right;}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="filenameedit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{border:1px rgb(124,124,124);background-color: rgba(124,124,124, 0%);padding:1px 2px;border-style: solid;font-size : 15px ;color:rgb(255, 170, 0);}</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="caption">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>180</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{border-radius:15px;width: 20px;height:20px;font-size:10px;color:rgb(255, 170, 0);}</string>
+   </property>
+   <property name="text">
+    <string>字幕</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>360</y>
+     <width>450</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QProgressBar {border-radius: 5px;background-color:rgba(85, 85, 127,0.4);}</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="start">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>330</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:transparent;color:rgb(255, 85, 127);border:1px solid pink;font-family: 微软雅黑;font-size:15px;}
+
+QPushButton:hover{opacity:0.2;border:2px solid black;}
+
+QPushButton:pressed{background-color:transparent;border:1px solid red;}</string>
+   </property>
+   <property name="text">
+    <string>开始下载</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="hostedit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>300</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{border:1px rgb(124,124,124);background-color: rgba(124,124,124, 0%);padding:1px 2px;border-style: solid;font-size : 15px ;color:rgb(255, 170, 0);}</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="host">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>300</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{border-radius:15px;width: 20px;height:20px;font-size:10px;color:rgb(255, 170, 0);}</string>
+   </property>
+   <property name="text">
+    <string>启用代理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reset">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>220</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:transparent;color:rgb(255, 85, 127);border:1px solid pink;font-family: 微软雅黑;font-size:15px;}
+
+QPushButton:hover{opacity:0.2;border:2px solid black;}
+
+QPushButton:pressed{background-color:transparent;border:1px solid red;}</string>
+   </property>
+   <property name="text">
+    <string>重置</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="info">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>190</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:transparent;color:rgb(255, 85, 127);border:1px solid pink;font-family: 微软雅黑;font-size:15px;}
+
+QPushButton:hover{opacity:0.2;border:2px solid black;}
+
+QPushButton:pressed{background-color:transparent;border:1px solid red;}</string>
+   </property>
+   <property name="text">
+    <string>版本信息</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="format">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>90</y>
+     <width>171</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="suspend">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>250</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color:transparent;color:rgb(255, 85, 127);border:1px solid pink;font-family: 微软雅黑;font-size:15px;}
+
+QPushButton:hover{opacity:0.2;border:2px solid black;}
+
+QPushButton:pressed{background-color:transparent;border:1px solid red;}</string>
+   </property>
+   <property name="text">
+    <string>暂停</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="playlist">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>280</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{border-radius:15px;width: 20px;height:20px;font-size:10px;color:rgb(255, 170, 0);}</string>
+   </property>
+   <property name="text">
+    <string>批量下载</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
